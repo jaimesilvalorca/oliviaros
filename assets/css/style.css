@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.32px;
+
+}
+
+.background-img {
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.h1-header {
+    padding-top: 79px;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+.container h2 {
+    font-weight: 700;
+}
+
+.p-section p {
+    font-size: 16px;
+    margin-bottom: 41.83px;
+    margin-left: 140px;
+    margin-right: 148px;
+}
+
+.about-me h2 {
+    margin-top: 66px;
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+.col-sm-4 i {
+    font-size: 48px;
+}
+
+.col-sm-4 h6 {
+    margin-top: 29.42px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.mis-trabajos {
+    background-color: #17A2B8;
+
+}
+.container-fluid h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.mis-trabajos .image-top {
+    height: 231.96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactame h2{
+    font-size: 50px;
+}
+
+@media (max-width: 575.98px) {
+
+    .h1-header {
+        padding-top: 29px;
+        font-weight: bold;
+        font-size: 40px;
+    
+    }
+
+    .about-me h2 {
+        margin-top: 48px;
+        font-size: 30px;
+
+    }
+
+    .container-fluid h2{
+        font-size: 30px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .contactame h2{
+        font-size: 30px;
+    }
+
+    .p-section p {
+
+        margin-bottom: 41.83px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
